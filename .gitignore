@@ -1,0 +1,8 @@
+work/dataset.npz
+work/cache/
+work/manifest.json
+work/scores_*
+work/results_*
+data/
+__pycache__/
+.ipynb_checkpoints/

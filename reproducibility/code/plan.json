@@ -1,0 +1,20 @@
+{
+ "fixed_before_results": true,
+ "data": "Gao et al. Dryad; files failing checks excluded (empty, not epoched, no baseline, malformed, duplicated: both copies); epochs with any EEG channel |x|>100 uV rejected; 0-998 ms, 12 EEG channels, resampled 500->128 Hz",
+ "folds": "leave-one-pair-out: fold k holds out lying subject k + honest subject k (15 folds)",
+ "trial_task": "target (1) vs irrelevant (0); probe epochs never used for training",
+ "standardization": "per-channel mean/sd from training epochs only",
+ "models": {
+  "LDA": "shrinkage LDA on 12 ch x 8 windows (125 ms) mean amplitudes",
+  "SVM": "linear SVM C=1, balanced class weights, same features",
+  "EEGNet": "F1=8 D=2 F2=16, kernel 64, dropout 0.5, Adam 1e-3, batch 64, max 30 epochs, early stopping patience 5 on inner validation (2 held-out training pairs)",
+  "CNN-LSTM": "temporal conv 8x32 + depthwise spatial (D=2) + pool 4 -> LSTM(32) -> linear; same training"
+ },
+ "class_imbalance": "balanced class weights / weighted loss",
+ "person_score": "within-person AUC = P(model score on probe epoch > score on irrelevant epoch)",
+ "person_decision": "knowledgeable if one-sided permutation test (2000 shuffles) of mean probe vs irrelevant score gives p < 0.05",
+ "classic_baseline": "same decision rule on Pz mean amplitude 300-800 ms (no machine learning); Pz = row 1 in the row order from the raw .cnt header",
+ "metrics": "trial AUC target vs irrelevant (held-out persons); person AUC (30 persons) from within-person AUC; sensitivity, specificity, balanced accuracy with Wilson 95% CI; label-permutation p-value for person AUC",
+ "seed": 0,
+ "correction_2026_10": "Channel order corrected from the raw .cnt header (Oz Pz P4 C4 P3 Cz C3 Fz F4 F3 Fp2 Fp1); classical baseline now reads row 1 (= Pz). Settings unchanged."
+}
