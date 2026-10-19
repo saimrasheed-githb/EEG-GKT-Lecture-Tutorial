@@ -1,6 +1,8 @@
 # EEG-Based Guilty Knowledge Testing — Lecture Tutorial
 
 **Methods, Evidence, Limitations, and Future Directions**
+
+📌 Using this material? Please cite it — see **[How to Cite](How%20to%20Cite.md)**.
 *From psychophysiological recognition to brain-based concealed-information detection*
 
 Saim Rasheed · Department of Information Technology, Faculty of Computing and Information Technology, King Abdulaziz University
@@ -71,7 +73,9 @@ Channel names follow the header of the one raw recording in the release (`lying/
 
 ## How to cite
 
-> Rasheed, S. (2026). *EEG-Based Guilty Knowledge Testing: Methods, Evidence, Limitations, and Future Directions* (Lecture tutorial, public edition v1.7). King Abdulaziz University.
+See **[How to Cite](How%20to%20Cite.md)** for APA, IEEE and BibTeX entries, including the original Gao et al. data. GitHub's **"Cite this repository"** button (right sidebar) gives the same citation.
+
+> Rasheed, S. (2026). *EEG-Based Guilty Knowledge Testing: Methods, Evidence, Limitations, and Future Directions* (Lecture tutorial, public edition v1.7). King Abdulaziz University. https://github.com/saimrasheed-githb/EEG-GKT-Lecture-Tutorial
 
 ## License
 

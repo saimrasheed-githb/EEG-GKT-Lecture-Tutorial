@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this lecture tutorial, please cite it as below, and also cite the original Gao et al. (2014) article and dataset (see 'How to Cite.md')."
+title: "EEG-Based Guilty Knowledge Testing: Methods, Evidence, Limitations, and Future Directions"
+type: dataset
+version: "1.7"
+date-released: 2026-10-17
+authors:
+  - family-names: Rasheed
+    given-names: Saim
+    affiliation: "Faculty of Computing and Information Technology, King Abdulaziz University"
+repository-code: "https://github.com/saimrasheed-githb/EEG-GKT-Lecture-Tutorial"
+url: "https://github.com/saimrasheed-githb/EEG-GKT-Lecture-Tutorial"
+license: MIT
+keywords:
+  - EEG
+  - P300
+  - concealed information test
+  - guilty knowledge test
+  - EEGNet
+  - lecture tutorial
+references:
+  - type: article
+    title: "A Novel Algorithm to Enhance P300 in Single Trials: Application to Lie Detection Using F-Score and SVM"
+    authors:
+      - family-names: Gao
+        given-names: Junfeng
+      - family-names: Tian
+        given-names: Hongjun
+      - family-names: Yang
+        given-names: Yong
+      - family-names: Yu
+        given-names: Xiaolin
+      - family-names: Li
+        given-names: Chenhong
+      - family-names: Rao
+        given-names: Nini
+    journal: "PLOS ONE"
+    volume: 9
+    issue: 11
+    start: e109700
+    year: 2014
+    doi: "10.1371/journal.pone.0109700"
+  - type: dataset
+    title: "Data from: A novel algorithm to enhance P300 in single trials: application to lie detection using F-score and SVM"
+    authors:
+      - family-names: Gao
+        given-names: Junfeng
+    publisher:
+      name: Dryad
+    year: 2015
+    doi: "10.5061/dryad.2qc64"
