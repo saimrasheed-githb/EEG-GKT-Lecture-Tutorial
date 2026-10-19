@@ -23,17 +23,17 @@ references:
     title: "A Novel Algorithm to Enhance P300 in Single Trials: Application to Lie Detection Using F-Score and SVM"
     authors:
       - family-names: Gao
-        given-names: Junfeng
+        given-names: J.
       - family-names: Tian
-        given-names: Hongjun
+        given-names: H.
       - family-names: Yang
-        given-names: Yong
+        given-names: Y.
       - family-names: Yu
-        given-names: Xiaolin
+        given-names: X.
       - family-names: Li
-        given-names: Chenhong
+        given-names: C.
       - family-names: Rao
-        given-names: Nini
+        given-names: N.
     journal: "PLOS ONE"
     volume: 9
     issue: 11
@@ -44,7 +44,7 @@ references:
     title: "Data from: A novel algorithm to enhance P300 in single trials: application to lie detection using F-score and SVM"
     authors:
       - family-names: Gao
-        given-names: Junfeng
+        given-names: J.
     publisher:
       name: Dryad
     year: 2015

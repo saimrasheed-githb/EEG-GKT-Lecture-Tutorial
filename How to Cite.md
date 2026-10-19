@@ -45,7 +45,7 @@ Gao, J., Tian, H., Yang, Y., Yu, X., Li, C., & Rao, N. (2015). *Data from: A nov
 
 ```bibtex
 @article{gao2014p300,
-  author  = {Gao, Junfeng and Tian, Hongjun and Yang, Yong and Yu, Xiaolin and Li, Chenhong and Rao, Nini},
+  author  = {Gao, J. and Tian, H. and Yang, Y. and Yu, X. and Li, C. and Rao, N.},
   title   = {A Novel Algorithm to Enhance {P300} in Single Trials: Application to Lie Detection Using {F}-Score and {SVM}},
   journal = {PLOS ONE},
   volume  = {9},
@@ -56,7 +56,7 @@ Gao, J., Tian, H., Yang, Y., Yu, X., Li, C., & Rao, N. (2015). *Data from: A nov
 }
 
 @misc{gao2015dryad,
-  author    = {Gao, Junfeng and Tian, Hongjun and Yang, Yong and Yu, Xiaolin and Li, Chenhong and Rao, Nini},
+  author    = {Gao, J. and Tian, H. and Yang, Y. and Yu, X. and Li, C. and Rao, N.},
   title     = {Data from: A novel algorithm to enhance {P300} in single trials: application to lie detection using {F}-score and {SVM}},
   publisher = {Dryad},
   year      = {2015},
